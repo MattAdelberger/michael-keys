@@ -47,7 +47,11 @@ section.tour {
     background-size: cover; 
     min-height:100vh;
     border-bottom: 4px solid #aaabb8;
+    background-position: 50% top;
+    background-attachment: fixed;
 }
+
+@media
 
 section.about {
     background: URL('../img/about-bg.png');
