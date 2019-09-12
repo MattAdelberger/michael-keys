@@ -1,0 +1,70 @@
+body {
+    font-family: 'Rubik' sans-serif;
+    background:  url('../img/bg-logo.png'), #ECE9E6;  /* fallback for old browsers */
+    background-repeat: no-repeat;
+    background-position: center 50%;  
+    background-size: 70vh auto, cover;  
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.logo img { 
+    width: 170px;
+    height:auto;
+    margin: 15px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+.navbar {
+    background: #ECE9E6;
+}
+
+.navbar .nav-item a {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.masthead {
+    position: relative;
+    height:100vh
+}
+
+.masthead img {
+    right:0;
+    top: 80px;
+    position: fixed;
+}
+
+.home {
+    height: 100vh;
+    width:100vw;  
+}
+
+.shows {
+    height: 100vh;
+    color: #fff;
+}
+
+.shows .table-container {
+    padding:15px;
+    background: rgba(0,0,0, 0.8);
+    width:100%;
+    border-radius: 4px;
+}
+
+.shows .table-container .table {
+    color: #fff;
+}
+
+.about {
+    height: 600px;
+}
+

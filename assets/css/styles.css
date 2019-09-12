@@ -1,0 +1,80 @@
+body {
+    font-family: 'Rubik' sans-serif;
+    background: #25274d;
+    color: #aaabb8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 4px solid #25274d;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #25274d !important;
+}
+section {
+    padding: 4rem;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom:4rem;
+}
+
+section.masthead {
+    background: URL('../img/masthead-bg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-bottom: 4px solid #25274d;
+    min-height:100vh;
+}
+
+section.media {
+    background: URL('../img/media-bg.png');
+    color: #25274d;
+    text-align:center;
+}
+
+section.tour {
+    color: #fff;
+    background: URL('../img/tour-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height:100vh;
+    border-bottom: 4px solid #aaabb8;
+}
+
+section.about {
+    background: URL('../img/about-bg.png');
+}
+
+section.tour .table-container {
+    border-radius: 8px;
+    background: rgba(0,0,0,0.6);
+    padding:2rem;
+}
+
+section.tour table {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+section.tour .table td  {
+    border: 0;
+}
+
+section.merch {
+    background-color: #aaabb8;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
