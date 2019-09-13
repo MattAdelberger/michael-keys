@@ -48,7 +48,7 @@ section.tour {
     min-height:100vh;
     border-bottom: 4px solid #aaabb8;
     background-position: 50% top;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 @media
