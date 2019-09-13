@@ -58,6 +58,8 @@ section.tour {
 
 section.about {
     background: URL('../img/about-bg.png');
+    text-align: justify;
+    padding: 4rem 0;
 }
 
 section.tour .table-container {
@@ -77,6 +79,10 @@ section.tour .table td  {
 
 section.merch {
     background-color: #aaabb8;
+    padding: 4rem 0;
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
 }
 
 @media (min-width: 992px) {
