@@ -50,16 +50,21 @@ section.tour {
     background: URL('../img/tour-bg.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    border-bottom: 4px solid #aaabb8;
     background-position: 50% top;
     background-attachment: scroll;
 }
 
 
 section.about {
-    background: URL('../img/about-bg.png');
+    background: #25274d;
     text-align: justify;
     padding: 2rem 0;
+    color: #fff;
+}
+
+section.about img {
+    border: 4px solid #aaabb8;
+    margin-bottom: 2rem;
 }
 
 section.tour .show-container {
@@ -88,9 +93,9 @@ section.tour .table td  {
 }
 
 section.merch {
-    background-color: #aaabb8;
+    background: URL('../img/merch-bg.png');
     padding: 2rem 0;
-    color: #fff;
+    color: #25274d;
     text-align: center;
     font-size: 3rem;
 }
