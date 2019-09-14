@@ -13,6 +13,7 @@ body {
 }
 
 .navbar-nav .nav-link {
+    text-align: center;
     font-weight: 500;
     text-transform: uppercase;
     color: #25274d !important;
@@ -24,7 +25,7 @@ body {
 
 section h1 {
     text-align: center;
-    margin-bottom:4rem;
+    margin-bottom: 2rem;
 }
 
 section.masthead {
@@ -40,16 +41,15 @@ section.media {
     background: URL('../img/media-bg.png');
     color: #25274d;
     text-align:center;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 section.tour {
-    padding: 4rem 0;
+    padding: 2rem 0;
     color: #fff;
     background: URL('../img/tour-bg.png');
     background-repeat: no-repeat;
     background-size: cover; 
-    min-height:100vh;
     border-bottom: 4px solid #aaabb8;
     background-position: 50% top;
     background-attachment: scroll;
@@ -59,18 +59,28 @@ section.tour {
 section.about {
     background: URL('../img/about-bg.png');
     text-align: justify;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
-section.tour .table-container {
-    border-radius: 8px;
+section.tour .show-container {
     background: rgba(0,0,0,0.6);
-    padding:2rem;
+    padding: 2rem;
 }
 
-section.tour table {
+section.tour .show {
     color: #fff;
-    margin-bottom: 0;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+section.tour .show:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+section.tour .show:first-child {
+    padding-top: 0;
 }
 
 section.tour .table td  {
@@ -79,10 +89,10 @@ section.tour .table td  {
 
 section.merch {
     background-color: #aaabb8;
-    padding: 4rem 0;
+    padding: 2rem 0;
     color: #fff;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 @media (min-width: 992px) {
