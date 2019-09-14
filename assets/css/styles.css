@@ -95,6 +95,12 @@ section.merch {
     font-size: 3rem;
 }
 
+.swiper-slide {
+    border: 4px solid #25274d;
+    background: #fff;
+    width: 70%;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 1rem;
